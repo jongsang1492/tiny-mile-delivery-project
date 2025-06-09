@@ -1,7 +1,7 @@
 # tiny-mile-delivery-project
 Contactless delivery mechanism redesign for Tiny Mile robot (UofT 1st year design course)
 
-# Tiny Mile Contactless Delivery Project 🤖🍱
+# Tiny Mile Contactless Delivery Project 
 
 This project was completed as part of a client-based engineering design course (APS112/113) at the University of Toronto. **Tiny Mile**, is the client of the Home Food Delivery Project that operates small remote-controlled delivery robots in urban environments. Our team's objective was to redesign the unloading system of their robot "Geoffrey" to support contactless delivery in complex, real-world conditions.
 
