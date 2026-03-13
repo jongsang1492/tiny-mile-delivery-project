@@ -1,31 +1,137 @@
-# tiny-mile-delivery-project
-Contactless delivery mechanism redesign for Tiny Mile robot (UofT 1st year design course)
+# Tiny Mile Contactless Delivery Mechanism Redesign
 
-# Tiny Mile Contactless Delivery Project 
+Redesign of a **contactless food delivery mechanism** for the Tiny Mile delivery robot *Geoffrey*, developed as part of a client-based engineering design project at the **University of Toronto (APS112/113)**.
 
-This project was completed as part of a client-based engineering design course (APS112/113) at the University of Toronto. **Tiny Mile**, is the client of the Home Food Delivery Project that operates small remote-controlled delivery robots in urban environments. Our team's objective was to redesign the unloading system of their robot "Geoffrey" to support contactless delivery in complex, real-world conditions.
+The objective was to design a reliable unloading mechanism capable of safely placing food on uneven urban surfaces while minimizing human contact during the COVID-19 pandemic.
 
-## Project Overview
-- Focused on reducing human interaction during the COVID-19 pandemic
-- Designed for safe drop-off on benches, stairs, ledges, and various terrain
-- Considered urban constraints such as weather, pedestrians, and municipal laws
+---
 
-## My Contributions
-- Defined system functions using Black Box and Enumeration methods
-- Drafted primary and secondary functions based on stakeholder needs:
-  - Primary: Contactless placement of food
-  - Secondary: Spill-proof transport, thermal insulation, drop-off confirmation
-- Conducted environmental & stakeholder analysis
-- Participated in evaluation of three alternative designs
-- Finalized and documented the selected unloading mechanism: **Squat and Place**
+# Project Overview
 
-## Design Decision
-- Generated initial sketches of three concepts
-- Evaluated alternatives with a Pugh Chart
-- Selected "Squat and Place" as final concept for its reliability and humanlike motion
+Tiny Mile operates small robotic delivery vehicles in urban environments.  
+The existing robot required an improved unloading system capable of performing **contactless food delivery** under real-world conditions.
 
-## Files
-- [`TinyMile_Contactless_Delivery_Portfolio_With_Images.pdf`](docs/TinyMile_Contactless_Delivery_Portfolio_With_Images.pdf): Detailed portfolio with sketches, charts, and function breakdown
+The redesigned mechanism needed to:
 
-## Institution
-University of Toronto — First-Year Engineering Design Course (APS112/113)
+- Place food without customer interaction
+- Work on uneven surfaces (benches, stairs, ledges)
+- Prevent food spillage
+- Maintain food temperature
+- Operate reliably in dense pedestrian environments
+
+The project focused on **system-level design, concept generation, and engineering evaluation**.
+
+---
+
+# Engineering Design Process
+
+The project followed a structured engineering design methodology.
+
+### 1. Functional Analysis
+
+System functions were defined using the **Black Box Method** and **Functional Enumeration**.
+
+Primary Function:
+- Contactless placement of food at delivery location
+
+Secondary Functions:
+
+- Prevent food spills during delivery
+- Maintain food temperature
+- Confirm delivery completion
+- Ensure safe interaction with pedestrians
+
+Environmental constraints such as **Toronto weather, urban traffic, and municipal regulations** were also considered. :contentReference[oaicite:1]{index=1}
+
+---
+
+# Concept Generation
+
+Three alternative unloading mechanisms were developed.
+<img width="665" height="361" alt="Screenshot 2026-03-13 at 12 15 46 AM" src="https://github.com/user-attachments/assets/0986ab60-420a-4844-900a-7938c95f2e5a" />
+
+
+
+Initial sketches explored different mechanical approaches for automated food unloading.
+
+### Design Concepts
+
+**1. Squat and Place**
+
+- Robot lowers its body similar to a squatting motion
+- A bottom door opens to place food directly on the ground
+- Inspired by elevator mechanisms and biological motion
+
+**2. Dump Truck**
+
+- Front cargo bay lifts and tilts forward
+- Food slides out of the container
+
+**3. Inclined Drawer**
+
+- A motorized pusher slides food out on an angled platform
+
+These designs were evaluated based on reliability, safety, and mechanical simplicity.
+
+---
+
+# Design Evaluation
+
+A **Pugh Chart** was used to compare the three concepts against key design criteria.
+
+Evaluation criteria included:
+
+- Unloading time
+- Unloading distance
+- Spill prevention
+- Food protection
+- Temperature conservation
+- System stability
+
+The evaluation determined that **Squat and Place** provided the best overall performance and reliability. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Final Design — Squat and Place
+
+The selected mechanism lowers the robot body and opens a bottom door to gently place food on the ground.
+
+Advantages:
+
+- Natural motion similar to human delivery
+- Minimal mechanical complexity
+- Reduced risk of food spills
+- Works on uneven surfaces
+
+This design satisfied the primary functional requirement of **fully contactless delivery**.
+
+---
+
+# Project Deliverables
+
+Full project documentation including sketches, concept development, and evaluation charts:
+
+<img width="551" height="158" alt="Screenshot 2026-03-13 at 12 17 16 AM" src="https://github.com/user-attachments/assets/84bfc47e-cff4-4ce9-9d3b-a35bb7264770" />
+
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates experience in:
+
+- Engineering design methodology
+- Functional decomposition
+- Concept generation
+- Mechanical design evaluation
+- Stakeholder analysis
+- Pugh chart decision analysis
+- Human-centered robotics design
+
+---
+
+# Author
+
+**Daniel Yoo**  
+Mechanical Engineering Student  
+University of Toronto
